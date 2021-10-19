@@ -1,6 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 import "./App.css";
+import Data from "./data.json";
+
+type USERS = typeof Data;
 
 const name = "hello";
 
